@@ -26,7 +26,6 @@ def begin_journey():
             "Ummm... nothing happens."
             exit(0)
 
-
 def cave_of_wonders():
     worthy_ans = input("You arrive at the cave of Wonders.  Are you worthy?")
     if "diamond in the rough" in worthy_ans:
