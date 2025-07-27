@@ -1,5 +1,5 @@
 {% set pyproject = load_file_data('../pyproject.toml', from_recipe_dir=True) %}
-{% set version = VERSION %}
+{% set version = "1.26" %}
 {% set project = pyproject['project'] %}
 
 package:
