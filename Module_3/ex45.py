@@ -10,3 +10,11 @@ class Person(object):
 
 becky = Person("Becky", 39, "green")
 becky.talk("I am talking here!!")
+
+print(becky.__dict__)
+print(becky.__class__)
+print(becky.__class__.__dict__)
+print(dir(becky))
+print(becky.talk)
+print(getattr(becky, 'talk'))
+print(becky.__class__.__dict__['talk'])
